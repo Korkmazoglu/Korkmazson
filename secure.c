@@ -2,7 +2,7 @@
 #define BUFFER_SIZE 1024
 void func(void) {
  char buf[BUFFER_SIZE];
- if (fgets(buf) == NULL) {
+ if (gets(buf) == NULL) {
  /* Handle error */
  }
 }
